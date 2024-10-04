@@ -7,6 +7,7 @@
 import React from "react";
 
 const Header = () => {
+  
   return (
     <div
       style={{
@@ -14,17 +15,18 @@ const Header = () => {
         display: "flex",
         justifyContent: "center",
         gap: "2rem",
-        background: "rgba(255,255,255,0.75)",
+        background: "rgb(78, 86, 126)",
+        // backgroundColor: primaryColor,
         padding: "1rem",
         top: 0,
         width: "100%",
         zIndex: 10,
       }}
     >
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#footer">Contact</a>
+      <a style={{color:"white"}} href="#home">Home</a>
+      <a style={{color:"white"}} href="#about">About</a>
+      <a style={{color:"white"}} href="#portfolio">Portfolio</a>
+      <a style={{color:"white"}} href="#footer">Contact</a>
     </div>
   );
 };
